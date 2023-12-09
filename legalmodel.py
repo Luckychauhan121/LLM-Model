@@ -26,8 +26,7 @@ if user_input:
     st.write(response['choices'][0]['text'].strip())
 
 
-! pip install streamlit -q
-
+!pip install streamlit -q
 !pip install langchain -q
 !pip install pypdf -q
 !pip install openai==0.28 -q
